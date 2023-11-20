@@ -31,14 +31,14 @@ I hope my strengths are healthy perfectionism and ability to find connect with d
 ## Pet projects and code examples
 - [Test task](https://github.com/krug42/test-apptech) for [Apptech](https://career.habr.com/companies/applied-technologies) - simple payment calculator written on React
 - Solution for [Steps in Primes codewars kata](https://www.codewars.com/kata/5613d06cee1e7da6d5000055):  
-```js
+
+```javascript
 function isPrime(n) {
   for (let i = 2, s = Math.sqrt(n); i <= s; i++) {
     if (n % i == 0) return false;
   }
   return n > 1;
 }
-
 
 function step(g, m, n) {
   const arr = [];
