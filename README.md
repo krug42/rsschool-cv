@@ -1,2 +1,1 @@
-# rsschool-cv
-One of the tasks made during rs-school frontend course
+https://krug42.github.io/rsschool-cv/cv
