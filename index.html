@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+</head>
+<body>
+  <h1>Alexandr Smirnov</h1>
+  <h2>Contacts</h2>
+  <ul>
+    <li>
+      <b>Location: </b>Arkhangelsk, Russia
+    </li>
+    <li>
+      <b>Telegram: </b><a href="https://t.me/krug42">@krug42</a>
+    </li>
+    <li>
+      <b>Email: </b> <a href="mailto:smrnv42@gmail.com">smrnv42@gmail.com</a>
+    </li>
+    <li>
+      <b>GitHub: </b><a href="https://github.com/krug42">krug42</a>
+    </li>
+    <li>
+      <b>Discord </b>rs-school server nickname: <i>Alexandr (@krug42)</i>
+    </li>
+  </ul>
+  <h2>About me</h2>
+  <p>
+    I am 29 years old, was always inspired by fast and well-looking interfaces, so some years ago (5 to be precise) I
+    tried to get in frontend profession, but failed. Now relearning and retrying to enter the profession, hope this time
+    i will get more luck!
+    I hope my strengths are healthy perfectionism and ability to find connect with different people, providing
+    comfortable, toxicity excluded communication with them.
+  </p>
+  <h2>Skills</h2>
+  <ul>
+    <li>Core JS</li>
+    <li>HTML/CSS with pre/post-processing, using BEM methodology</li>
+    <li>git</li>
+    <li>Basic node.js</li>
+  </ul>
+  <h4>Wish to learn:</h4>
+  <ul>
+    <li>TypeScript</li>
+    <li>Webpack and other modern build tools</li>
+    <li>React and its ecosystem as a primary framework</li>
+    <li>Vue, Preact, Svelte as a secondary</li>
+    <li>ReactNative and other crossplatform frameworks</li>
+    <li>Tailwind</li>
+    <li>Testing tools (mocha, jest, puppeteer)</li>
+    <li>Data visualization libraries</li>
+    <li>Canvas and WebGL libraries</li>
+    <li>Advanced node.js</li>
+    <li>Docker</li>
+  </ul>
+
+  <h2>Pet projects and code examples</h2>
+  <ul>
+    <li>
+      <a href="https://github.com/krug42/test-apptech">Test task</a> for <a
+        href="https://career.habr.com/companies/applied-technologies">Apptech</a> - simple payment calculator written on
+      React
+    </li>
+    <li>
+      Solution for <a href="https://www.codewars.com/kata/5613d06cee1e7da6d5000055">Steps in Primes codewars kata</a>
+      <pre>
+        <code>
+          function isPrime(n) {
+          for (let i = 2, s = Math.sqrt(n); i &lt;= s; i++) { if (n % i==0) return false; } return n> 1;
+            }
+        
+            function step(g, m, n) {
+            const arr = [];
+            for (let i = m; i &lt;= n; i++) { 
+              if (isPrime(i)) arr.push(i); 
+            } 
+            for (let i=0; i &lt; arr.length - 1; i++) { 
+              for (let j=1; j &lt; arr.length - i; j++) { 
+                if (arr[i + j] - arr[i]==g) return [arr[i], arr[i + j]]; 
+              } } 
+              return null; 
+            }
+        </code>
+      </pre>
+    </li>
+  </ul>
+  <h2>Education</h2>
+      <p>
+        <a href="https://narfu.ru/en/">Northern (Arctic) Federal University</a>, Applied informatics bachelor, 2012-2016.
+      </p>
+      <h4>Courses and learning materials</h4>
+      <ul>
+        <li><a href="https://javascript.info">javascript.info</a> - I believe the best javascript guide at the time</li>
+        <li><a href="https://htmlacademy.ru/">HTML Academy</a> - interactive guide to HTML and CSS</li>
+        <li><a href="https://rs.school">RS.school</a> Frontend Stage 1 course <i>in progress</i></li>
+      </ul>
+  <h2>Languages</h2>
+      <ul>
+        <li>
+          <b>Russian</b> - native
+        </li>
+        <li>
+          <b>English</b> - B1. Fluent in reading and listening, a lack of practice in speaking and writing
+        </li>
+      </ul>
+</body>
+</html>
