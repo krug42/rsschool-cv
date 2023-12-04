@@ -9,22 +9,22 @@
 <body>
   <h1>Alexandr Smirnov</h1>
   <h2>Contacts</h2>
-  <li>
-    <b>Location: </b>Arkhangelsk, Russia
-  </li>
-  <li>
-    <b>Telegram: </b><a href="https://t.me/krug42">@krug42</a>
-  </li>
-  <li>
-    <b>Email: </b> <a href="mailto:smrnv42@gmail.com">smrnv42@gmail.com</a>
-  </li>
-  <li>
-    <b>GitHub: </b><a href="https://github.com/krug42">krug42</a>
-  </li>
-  <li>
-    <b>Discord </b>rs-school server nickname: <i>Alexandr (@krug42)</i>
-  </li>
   <ul>
+    <li>
+      <b>Location: </b>Arkhangelsk, Russia
+    </li>
+    <li>
+      <b>Telegram: </b><a href="https://t.me/krug42">@krug42</a>
+    </li>
+    <li>
+      <b>Email: </b> <a href="mailto:smrnv42@gmail.com">smrnv42@gmail.com</a>
+    </li>
+    <li>
+      <b>GitHub: </b><a href="https://github.com/krug42">krug42</a>
+    </li>
+    <li>
+      <b>Discord </b>rs-school server nickname: <i>Alexandr (@krug42)</i>
+    </li>
   </ul>
   <h2>About me</h2>
   <p>
@@ -68,16 +68,16 @@
       <pre>
         <code>
           function isPrime(n) {
-          for (let i = 2, s = Math.sqrt(n); i <= s; i++) { if (n % i==0) return false; } return n> 1;
+          for (let i = 2, s = Math.sqrt(n); i &lt;= s; i++) { if (n % i==0) return false; } return n> 1;
             }
         
             function step(g, m, n) {
             const arr = [];
-            for (let i = m; i <= n; i++) { 
+            for (let i = m; i &lt;= n; i++) { 
               if (isPrime(i)) arr.push(i); 
             } 
-            for (let i=0; i < arr.length - 1; i++) { 
-              for (let j=1; j < arr.length - i; j++) { 
+            for (let i=0; i &lt; arr.length - 1; i++) { 
+              for (let j=1; j &lt; arr.length - i; j++) { 
                 if (arr[i + j] - arr[i]==g) return [arr[i], arr[i + j]]; 
               } } 
               return null; 
