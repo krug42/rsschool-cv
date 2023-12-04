@@ -1,1 +1,1 @@
-https://krug42.github.io/rsschool-cv/cv
+https://krug42.github.io/rsschool-cv/
